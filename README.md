@@ -25,18 +25,3 @@ The project demonstrates CRUD operations using Sequelize ORM with MySQL.
 - Soft delete (paranoid) applied on Posts
 
 ---
-
-## ⚙️ Environment Setup
-
-Create `.env.development` inside `/config` folder:
-
-```env
-PORT=3000
-
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=
-DB_NAME=saturday_blog_app
-
-SALT_ROUND=8
